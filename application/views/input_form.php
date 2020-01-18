@@ -1,60 +1,90 @@
 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-lg-12">
                         <div class="card">
+                            <div class="card-header bg-info">
+                                <h4 class="m-b-0 text-white">UAS</h4>
+                            </div>
                             <div class="card-body">
-                                <h4 class="card-title">Default Basic Forms</h4>
-                                <h6 class="card-subtitle"> All bootstrap element classies </h6>
-                                <form class="form">
-                                    <div class="form-group m-t-40 row">
-                                        <label for="example-text-input" class="col-2 col-form-label">Nama </label>
-                                        <div class="col-10">
-                                            <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+                                <form action="#">
+                                    <div class="form-body">
+                                        <h3 class="card-title">Person Info</h3>
+                                        <hr>
+                                        <div class="row p-t-20">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="control-label">First Name</label>
+                                                    <input type="text" id="firstName" class="form-control" >
+                                                     </div>
+                                            </div>
+                                            <!--/span-->
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="control-label">Last Name</label>
+                                                    <input type="text" id="lastName" class="form-control" >
+                                                    </div>
+                                            </div>
+                                            <!--/span-->
                                         </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label for="example-search-input" class="col-2 col-form-label">Kelas</label>
-                                        <div class="col-10">
-                                            <input class="form-control" type="search" value="How do I shoot web" id="example-search-input">
+                                        <!--/row-->
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="control-label">Gender</label>
+                                                    <select class="form-control custom-select">
+                                                        <option value="">Male</option>
+                                                        <option value="">Female</option>
+                                                    </select>
+                                                    </div>
+                                            </div>
+                                            <!--/span-->
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="control-label">Date of Birth</label>
+                                                    <input type="date" class="form-control">
+                                                </div>
+                                            </div>
+                                            <!--/span-->
                                         </div>
-                                    </div>
-                                    
-                                  
-                                    <div class="form-group row">
-                                        <label for="example-number-input" class="col-2 col-form-label">Usia</label>
-                                        <div class="col-10">
-                                            <input class="form-control" type="number" value="42" id="example-number-input">
+                                        <!--/row-->
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="control-label">Category</label>
+                                                    <select class="form-control custom-select" data-placeholder="Choose a Category" tabindex="1">
+                                                        <option value="Category 1">Category 1</option>
+                                                        <option value="Category 2">Category 2</option>
+                                                        <option value="Category 3">Category 5</option>
+                                                        <option value="Category 4">Category 4</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!--/span-->
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="control-label">Membership</label>
+                                                    <div class="custom-control custom-radio">
+                                                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                                        <label class="custom-control-label" for="customRadio1">Free</label>
+                                                    </div>
+                                                    <div class="custom-control custom-radio">
+                                                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                                        <label class="custom-control-label" for="customRadio2">Paid</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--/span-->
                                         </div>
+                                        <!--/row-->
+                                       
+                                        
+                                        
+                                        <!--/row-->
+                                        
                                     </div>
-                                    
-                                    <div class="form-group row">
-                                        <label for="example-date-input" class="col-2 col-form-label">Date</label>
-                                        <div class="col-10">
-                                            <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
-                                        </div>
+                                    <div class="form-actions">
+                                        <button type="submit" class="btn btn-success"> <i class="fa fa-check"></i> Save</button>
+                                        <button type="button" class="btn btn-inverse">Cancel</button>
                                     </div>
-                                   
-                                    
-                                    <div class="form-group row">
-                                        <label for="example-month-input" class="col-2 col-form-label">Semester</label>
-                                        <div class="col-10">
-                                            <select class="custom-select col-12" id="inlineFormCustomSelect">
-                                                <option selected="">Pilih...</option>
-                                                <option value="1">satu</option>
-                                                <option value="2">dua</option>
-                                                <option value="3">tiga</option>
-                                                <option value="4">empat</option>
-                                                <option value="5">lima</option>
-                                                <option value="6">enam</option><option value="7">tujuh</option>
-                                                <option value="8">delapan</option>
-                                               
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                    <input class="btn btn-primary" type="submit" value="kirim">
-                                     <input class="btn btn-primary" type="reset" value="ulangi">
-                                 </div>
-                                    
                                 </form>
                             </div>
                         </div>
